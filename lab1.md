@@ -190,7 +190,7 @@ Example:
  ls -l testfile.txt
  Output:-rw-rw-r--1 newuser newgroup 0 Aug 20 18:52 testfile.txt
 
-[image-15](https://github.com/vanshchhabra007/images-/blob/main/image-15.jpg?raw=true)
+![image-15](https://github.com/vanshchhabra007/images-/blob/main/image-15.jpg?raw=true)
 
 
 4. Putting It All Together
