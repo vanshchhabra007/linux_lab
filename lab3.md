@@ -2,16 +2,15 @@
 
 
 # ✅ Script: printnumers.sh
-![alt text](../images/img53.png)
 
+![image-20](https://github.com/vanshchhabra007/images-/blob/main/image-20.jpg?raw=true)
 
 ### 📌 Make it executable and example run:
-![alt text](../images/img54.png)
+![image-21](https://github.com/vanshchhabra007/images-/blob/main/image-21.jpg?raw=true)
 
 ## 📌 Modified Script (⁠ enhanced_numbers.sh ⁠)
- 
- ![alt text](../images/img57.png)
 
+ ![image-22](https://github.com/vanshchhabra007/images-/blob/main/image-23.jpg?raw=true)
 # 📌 expalnation
 
 1 Validate number of arguments
@@ -38,13 +37,10 @@
 ### 📌 Example Runs
 
 Example1
+![image-23](https://github.com/vanshchhabra007/images-/blob/main/image-22.jpg?raw=true)
 
-![alt text](../images/img56.png)
 
 
-Example2
-
-![alt text](../images/img58.png)
 
 
 
