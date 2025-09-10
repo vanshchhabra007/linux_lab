@@ -5,7 +5,7 @@ We will be walking thourgh basic linux
  pwd– Print Working Directory
  Shows the current location in the filesystem.
  (pwd)
-https://github.com/vanshchhabra007/images-/blob/main/image_1.jpg?raw=true
+![image-1](https://github.com/vanshchhabra007/images-/blob/main/image_1.jpg?raw=true)
 
 
 
