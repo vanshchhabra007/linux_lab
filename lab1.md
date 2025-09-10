@@ -5,6 +5,7 @@ We will be walking thourgh basic linux
  pwd– Print Working Directory
  Shows the current location in the filesystem.
  (pwd)
+
 ![image-1](https://github.com/vanshchhabra007/images-/blob/main/image_1.jpg?raw=true)
 
 
@@ -16,6 +17,7 @@ ls – List Directory Contents
   ls -l → Detailed list (permissions, size, date)
  ls -a → Shows hidden files (those starting with .)
  ls -la → Combined
+
  ![image-2](https://github.com/vanshchhabra007/images-/blob/main/image-2.jpg?raw=true)
 
   cd – Change Directory
@@ -30,6 +32,7 @@ cd ~
  # Go up one level
  # Go to root
  # Go to home directory
+
  ![image-3](https://github.com/vanshchhabra007/images-/blob/main/image-3.jpg?raw=true)
 
 2. File and Directory Management
@@ -48,6 +51,7 @@ touch file.txt
 rm -r folder_name    
 # Delete file
  # Delete folder (recursively)
+
  ![image-4](https://github.com/vanshchhabra007/images-/blob/main/image-4.jpg?raw=true)
  
  3. File Viewing & Editing
@@ -60,7 +64,9 @@ nano – Edit Files in Terminal
  Use arrows to move
  CTRL + O to save
  CTRL + X to exit
+
 ![image-5](https://github.com/vanshchhabra007/images-/blob/main/image-5.jpg?raw=true)
+
 clear – Clears the Terminal
  clear
  Shortcut: CTRL + L4. System Commands
@@ -69,11 +75,15 @@ clear – Clears the Terminal
  echo "Hello, World!"
  whoami – Show Current User
  whoami
+
 ![image-7](https://github.com/vanshchhabra007/images-/blob/main/image-7.jpg?raw=true)
+
 ![image-8](https://github.com/vanshchhabra007/images-/blob/main/image-8.jpg?raw=true)
+
 man – Manual for Any Command
  man ls
  Use q to quit the manual.
+
 5. Searching and Finding
  find – Locate Files
  find . -name "*.txt"
@@ -81,7 +91,9 @@ man – Manual for Any Command
  Finds all .txt files in current folder and subfolders.
  grep – Search Inside Files
  grep "hello" file.txt
+
 ![image-9](https://github.com/vanshchhabra007/images-/blob/main/image-9.jpg?raw=true)
+
 6. Helpful Shortcuts
  Shortcut
  Tab
@@ -111,6 +123,7 @@ man – Manual for Any Command
  r → Read (4 in numeric)
  w → Write (2 in numeric)
  x → Execute (1 in numeric)
+
 ![image-10](https://github.com/vanshchhabra007/images-/blob/main/image-10.jpg?raw=true)
 
  2. chmod – Change File Permissions
@@ -133,6 +146,7 @@ Example:
  Owner: 7 → rwx
  Group: 7 → r-w-x
  Others: 7 → r-w-x
+
 ![image-11](https://github.com/vanshchhabra007/images-/blob/main/image-11.jpg?raw=true)
 
 ![image-12](https://github.com/vanshchhabra007/images-/blob/main/image-12.jpg?raw=true)
@@ -142,10 +156,12 @@ Example:
  + → Add permission- → Remove permission
  = → Assign exact permission
  Modes can be set in numeric (octal) or symbolic form.
+
 ![image-13](https://github.com/vanshchhabra007/images-/blob/main/image-13.jpg?raw=true)
 
 (C) Recursive Changes
  chmod -R 755 /mydir-R → applies changes recursively to all files/subdirectories
+
  ![image-14](https://github.com/vanshchhabra007/images-/blob/main/image-14.jpg?raw=true)
 
   3. chown – Change File Ownership
@@ -173,7 +189,10 @@ Example:
  6. Verify ownership
  ls -l testfile.txt
  Output:-rw-rw-r--1 newuser newgroup 0 Aug 20 18:52 testfile.txt
+
 [image-15](https://github.com/vanshchhabra007/images-/blob/main/image-15.jpg?raw=true)
+
+
 4. Putting It All Together
  Example Scenario
  touch project.sh
@@ -181,11 +200,17 @@ Example:
  Output:-rw-r--r-- 1 sameer dev 0 Aug 19 12:00 project.sh
  Now:
  chmod 700 project.sh       
+
 # Only owner has rwx
- chmod u+x,g-w project.sh   # Add execute for user, remove write for group
- chown root:admin project.sh # Change owner to root and group to admin
- 
+ chmod u+x,g-w project.sh 
+ # Add execute for user, remove write for group
+ chown root:admin project.sh
+ # Change owner to root and group to admin
+
+ 
  5. quick reference
+
+    
  0  ---  no access
  1  --x  execute only
  2  -w-  write only
