@@ -5,7 +5,7 @@
 # ✅1.⁠ ⁠backup.sh Script
 Create a new file named backup.sh inside your project folder:
 
-![alt text](../images/img42.png)
+![image-24](https://github.com/vanshchhabra007/images-/blob/main/image-24.jpg?raw=true)
 
 # ✅ 2. Make Script Executable
 Run the following command once:
@@ -15,15 +15,15 @@ chmod 777 backup.sh
 # ✅ 3. Testing the script
 ## 1. Create some samples .txt files:
 
-![alt text](../images/img43.png)
+![image-25](https://github.com/vanshchhabra007/images-/blob/main/image-25.jpg?raw=true)
 ## 2. Run the script:
 
 ./backup.sh
-![alt text](../images/img44.png)
+![image-26](https://github.com/vanshchhabra007/images-/blob/main/image-26.jpg?raw=true)
 ## 3. Check the backup/folder:
 
 ls backup/
-![alt text](../images/img45.png)
+![image-27](https://github.com/vanshchhabra007/images-/blob/main/image-27.jpg?raw=true)
 
 # 🔧 LAB4– File & Backup Automation
 
@@ -72,8 +72,9 @@ world.txt
 
 ### Output
 Files copied into ⁠ backup/ ⁠ with timestamps:
+![image-26](https://github.com/vanshchhabra007/images-/blob/main/image-26.jpg?raw=true)
 
-![alt text](../images/img44.png)
+
 ### 🛠️ Q1-What is the difference between cp,mv,and rsync?
 
      ans=cp-Copies files or directories
