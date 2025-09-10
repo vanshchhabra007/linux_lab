@@ -34,7 +34,7 @@ the project/ folder).
 
 ## 🔧 Check the folder structure:
 
-[image-30](https://github.com/vanshchhabra007/images-/blob/main/image-30.jpg?raw=true)
+![image-30](https://github.com/vanshchhabra007/images-/blob/main/image-30.jpg?raw=true)
 
 # 🔧 LAB Extra – Starter Kit & Automation
 
