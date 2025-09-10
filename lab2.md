@@ -6,13 +6,13 @@
  #!/bin/bash      - shebang
  echo "hello, world!"     - printing hello world
  name="vansh"   - taking vansh in variable name
- age=17     -  taking 17 in variable age 
+ age=17     -  taking 17 in variable age
 
  echo "My name is $name ansd I am $age year old."  - printing name and age
 ```
-![alt text](../images/img36.png)
+![image-18](https://github.com/vanshchhabra007/images-/blob/main/image-18.jpg?raw=true)
+![image-16](https://github.com/vanshchhabra007/images-/blob/main/image-16.jpg?raw=true)
 
-![alt text](../images/img37.png)
 # 🔧 script 2
 
 ```
@@ -29,9 +29,8 @@ if [ $a=" akshat" ] && [ $b -lt 18 ]; then       -checking conditions and using 
 fi
 
 ```
-![alt text](../images/img38.png)
-
-![alt text](../images/img39.png)
+![image-19](https://github.com/vanshchhabra007/images-/blob/main/image-19.jpg?raw=true)
+![image-17](https://github.com/vanshchhabra007/images-/blob/main/image-17.jpg?raw=true)
 
 
 ### 🔧 Q1 what is the purpose of #!/bin/bash at the top of the script
