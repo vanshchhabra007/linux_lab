@@ -19,9 +19,7 @@ Set up a working Linux (Ubuntu) environment to be used for future lab work.
 3️⃣ First Successful Ubuntu Login
 
 ```md
-![Setup Screenshot](image1.png)
-![Installation Screenshot](image2.png)
-![Login Screenshot](image3.png)
+
 ````
 
 ---
